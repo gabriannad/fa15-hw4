@@ -1,0 +1,8 @@
+<h1>Dogs</h1>
+
+<% @dogs.all.each do |d| %>
+	<p>
+	  <b>Name</b>: <%= d.name %></br>
+	  <b>Age</b>: <%= d.age %>
+	</p>
+<% end %>
